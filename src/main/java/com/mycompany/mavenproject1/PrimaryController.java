@@ -36,7 +36,7 @@ public class PrimaryController {
         };
         ports[1].addDataListener(serialp);
         ports[1].openPort();
-        ports[1].writeBytes("huiyt".getBytes(), 5);
+        ports[1].writeBytes("la vie est belle".getBytes(), 5);
         //App.setRoot("secondary");
     }
 
